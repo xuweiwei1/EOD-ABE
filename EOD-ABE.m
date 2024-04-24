@@ -1,4 +1,3 @@
-
 function [U,S,V,R]=new_PbP_QLP_2(A, tol, q)
 [P] = QB_K(A,tol);
 if q ~= 0
